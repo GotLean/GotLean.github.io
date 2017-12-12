@@ -1,2 +1,1 @@
 # FranklinsSite
-Merry Christmas
