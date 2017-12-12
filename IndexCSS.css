@@ -1,18 +1,18 @@
 body{
-	 /*background: url('Test_Background.jpg') no-repeat center center fixed; 
+	 background: url('Images/Background.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
  margin:0;
 }
 
-/*#Profile_Pic{
+#Profile_Pic{
 	width: 200px;
 	height: 200px;
 	border: 2px solid black;
     border-radius: 25px;
-}*/
+}
 #ContactHeader{
 	color:black;
 	/*color:white;*/
@@ -20,7 +20,6 @@ body{
 	margin-bottom:0;
 }
 #SideMenu{
-/*background-color:#19193A;*/
 width:250px;
 text-align:center;
 border-bottom-left-radius: 25px;
@@ -32,17 +31,20 @@ display:none;
 	display:block;
 	margin: 0px auto;
 	width: 220px;
-	background:rgba(26, 60, 55, 1);
-	border: outset 5px #4A877D;
+	background:rgba(26, 60, 55, 0);
+	border: outset 5px;
+	border-color:rgba(74, 135, 125, 0);
 	padding-top:5px;
 	padding-bottom:5px;
 	margin-top:10px;
 	border-radius: 10px;
-	color:white;
+	color: white;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size:20px;
 
 }
 .link:hover{
-	border: inset 5px #4A877D;
+	border: inset 5px rgba(74, 135, 125, 0);
 }
 /*Primary Color:
 1A3C37	1B3732	13352F	4A877D	56877F
