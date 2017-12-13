@@ -27,25 +27,61 @@ height:450px;
 border-bottom-right-radius: 25px;
 display:none;
 }
+#Contact{
+	float:right;
+}
+#Vision{
+margin-right:5px;
+float:right;
+
+}
+#Vis{
+	background:blue;
+}
+#logotxt{
+	margin:0px;
+}
+#logo{
+	background-image:url('Personal_Image.jpg');
+	display: inline-block;
+	text-align: center;
+	width:200px;
+	height:125px;
+	border-radius: 50px;
+	text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+	margin: 0px;
+}
+#center{
+	display: block;
+	text-align: center;
+	width:325px;
+	height:325px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+	border-radius: 325px;
+}
 .link{
 	display:block;
 	margin: 0px auto;
-	width: 220px;
-	background:rgba(26, 60, 55, 0);
-	border: outset 5px;
-	border-color:rgba(74, 135, 125, 0);
+	background:rgba(0, 0, 0, 0);
+	border: gray outset 5px;
 	padding-top:5px;
 	padding-bottom:5px;
 	margin-top:10px;
+	
 	border-radius: 10px;
-	color: white;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	color: black;
+	text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
 	font-size:20px;
 
 }
 .link:hover{
-	border: inset 5px rgba(74, 135, 125, 0);
+	background-color: rgba(26, 60, 55, .1);
+	border: lightblue inset 5px;
 }
+
 /*Primary Color:
 1A3C37	1B3732	13352F	4A877D	56877F
 Secondary Color A:
