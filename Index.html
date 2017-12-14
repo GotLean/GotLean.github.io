@@ -7,29 +7,32 @@
 		<link rel="stylesheet" href="IndexCSS.css">
 	</head>
 	<body>
-		<button id='Contact' class="link" type="button" onclick="myfunt()">Contact</button>
-		<button id='Vision' class="link" type="button" onclick="myVis()">Vision</button>
-		<div id='logo'>
-		<h1 style="padding: 10px" id="logotext">FrankLean<br> Productions<h1>
-		</div>
-		<div id="center">
-		<iframe width="100%" height="100%" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/338995792&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-		</div>
-		<div id="SideMenu">
-			<h1 id="ContactHeader">Contact Information</h1>
-			<!--<img src="Personal_Image.jpg" id="Profile_Pic" alt="My Face">-->
-			<div id="contactinfo">
-				<button class="link" type="button">Linkedin</button>
-				<button class="link" type="button">Facebook</button>
-				<button class="link" type="button">Email</button>
-				<button class="link" type="button">Twitter</button>
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+						</button>
+						<a class="navbar-brand" href="#">FrankLean Productions</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Vision</a></li> 
+							<!--<li><a href="#">Page 3</a></li> -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="well well-sm" id="LatestDrops">
+				<div class="text-center" style=" height:300px"><iframe  width="80%" height="100%" scrolling="yes" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/338995792&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=false"></iframe></div>	
 			</div>
-		</div>
-		<!--<div id="Vis">
-				<p>Hello, 
-					My name is Kenny Bean. I am a University of Michigan Dearborn Senior Undergraduate Student who is looking to be challenged in the field of Computer Science / Software Engineering. 
-					I have extensive exposure to public speaking and a technical backround as I am currently a Working Student in the Algorithm team for Autoliv-Nissin Brake Systems. I am searching for a position to teach me more about how this engineering field is applied in an industry setting and gain more experience as an engineer.
-					I wish to work in a competetive environment with plenty of oppurtunities for advancement in the near future as I plan to be responsbile for my own team some day.
 			<div class="container">
 					<div class="jumbotron">
 							<!--<img style="float:right; width: 20%; height: 175px; " src="Test_Background.jpg" class="img-circle" alt="Franklinpic1">
