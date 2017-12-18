@@ -4,7 +4,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="IndexCSS.css">
+		<link rel="stylesheet" href="Styles/IndexCSS.css">
+		<script src="Scripts/IndexScripts.js"></script>
 	</head>
 	<body>
 		<header>
@@ -16,49 +17,51 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span> 
 						</button>
-						<a class="navbar-brand" href="#">FrankLean Productions</a>
+						<a class="navbar-brand" href="https://soundcloud.com/gotlean">FrankLean Productions</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Vision</a></li> 
-							<!--<li><a href="#">Page 3</a></li> -->
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="Index.html">Home</a></li>
+							<li><a id='Contact' class="DD" href="javascript:OpenEl()">Contact</a></li>
+							<ul id='DD' class="DD dropdown-menu">
+								<li><a id="emailMe" href="mailto:FrankTheTank@gmail.com">Email</a></li>
+								<li class="divider"></li>
+								<li><a href="https://soundcloud.com/gotlean">SoundCloud</a></li>
+								<li><a href="https://www.facebook.com/franklin.dwain">Facebook</a></li>
+							</ul>
+							<li><a href="???">Vision</a></li> 
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
 		<main>
-			<div class="well well-sm" id="LatestDrops">
-				<div class="text-center" style=" height:300px"><iframe  width="80%" height="100%" scrolling="yes" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/338995792&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=false"></iframe></div>	
+			<div class="" id="LatestDrops">
+				<div class="text-center" style=" height:400px"><iframe  width="60%" height="100%" scrolling="yes" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/338995792&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=false"></iframe></div>	
 			</div>
 			<div class="container">
 					<div class="jumbotron">
-							<!--<img style="float:right; width: 20%; height: 175px; " src="Test_Background.jpg" class="img-circle" alt="Franklinpic1">
-							<img style="float:left; width: 20%; height: 175px; " src="Personal_Image.JPG" class="img-circle" alt="Franklinpic2">-->
-							<h1 class="text-center">Franklin Swain</h1> 
-							
+						<h1 class="text-center">Franklin Swain</h1> 
 						<h2 class="text-center"> Musician and Producer</h2> 
 						<p class="text-center">Input Description Here.</p>
 					</div>
-				</div>
+			</div>
 			<div class="container text-center">
 				<div class="dropdown">
-					  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Contact
-					  <span class="caret"></span></button>
-					  <ul class="dropdown-menu">
-						<li><a href="#">Email</a></li>
+					<button  class="DD btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Contact
+						<span class="caret"></span>
+					</button>
+					  <ul  class="DD dropdown-menu">
+						<li><a id="emailMe" href="mailto:kennyjr.14767@gmail.com">Email</a></li>
 						<li class="divider"></li>
-						<li><a href="#">Linkedin</a></li>
-						<li><a href="#">SoundCloud</a></li>
-						<li><a href="#">Facebook</a></li>
+						<li><a href="https://soundcloud.com/gotlean">SoundCloud</a></li>
+						<li><a href="https://www.facebook.com/franklin.dwain">Facebook</a></li>
 					  </ul>
-					</div>
-				  </div>  
+				</div>
+			</div>  
 		</main>
 		<footer>
-			<p  class="text-center">Hello this is a footer</p>
+			<p  class="text-left">Web-Site by K.B.Code</p>
 		</footer>
 	</body>
 </html>

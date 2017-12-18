@@ -1,0 +1,45 @@
+body{
+	background-image: url('../Images/Background.jpg');
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+	background-position: center center;  
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;        
+}
+.jumbotron{
+	background-color:rgba(0,0,0,0);
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.DD{
+	background-color: #222;
+	border-color: #080808;
+	color:white;
+	
+}
+.DD li a{
+	color:white;
+}
+
+.jumbotron h1,h2,p{
+	text-shadow:
+    -0.5px -0.5px 0 #b6afaf,
+    0.5px -0.5px 0 #b6afaf,
+    -0.5px 0.5px 0 #b6afaf,
+    0.5px 0.5px 0 #b6afaf;  
+}
+#SideMenu{
+	width:250px;
+	text-align:center;
+	border-bottom-left-radius: 25px;
+	height:450px;
+	border-bottom-right-radius: 25px;
+	display:inline-block;
+	}
+.dropdown-menu {
+	left: 50%;
+	right: auto;
+	text-align: center;
+	transform: translate(-50%, 0);
+	}
+main{
+	padding-bottom:150px;
+}
