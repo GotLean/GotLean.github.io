@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="IndexCSS.css">
-		<script src="Contact.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="Styles/IndexCSS.css">
+		<script src="Scripts/IndexScripts.js"></script>
 	</head>
 	<body>
-	<button id='Contact' class="link" type="button" onclick="myfunt()">Contact</button>
-	<div id="SideMenu">
-		<h1 id="ContactHeader">FrankLEAN</h1>
-		<!--<img src="Personal_Image.jpg" id="Profile_Pic" alt="My Face">-->
-		<div id="contactinfo">
-			<button class="link" type="button">Linkedin</button>
-			<button class="link" type="button">Facebook</button>
-			<button class="link" type="button">Email</button>
-			<button class="link" type="button">Twitter</button>
-		</div>
-		</div>
-	</div>
-		
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+						</button>
+						<a class="navbar-brand" href="https://soundcloud.com/gotlean">FrankLean Productions</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="Index.html">Home</a></li>
+							<li><a id='Contact' class="DD" href="javascript:OpenEl()">Contact</a></li>
+							<ul id='DD' class="DD dropdown-menu">
+								<li><a id="emailMe" href="mailto:FrankTheTank@gmail.com">Email</a></li>
+								<li class="divider"></li>
+								<li><a href="https://soundcloud.com/gotlean">SoundCloud</a></li>
+								<li><a href="https://www.facebook.com/franklin.dwain">Facebook</a></li>
+							</ul>
+							<li><a href="???">Vision</a></li> 
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="" id="LatestDrops">
+				<div class="text-center" style=" height:400px"><iframe  width="60%" height="100%" scrolling="yes" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/338995792&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=false"></iframe></div>	
+			</div>
+			<div class="container">
+					<div class="jumbotron">
+						<h1 class="text-center">Franklin Swain</h1> 
+						<h2 class="text-center"> Musician and Producer</h2> 
+						<p class="text-center">Input Description Here.</p>
+					</div>
+			</div>
+			<div class="container text-center">
+				<div class="dropdown">
+					<button  class="DD btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Contact
+						<span class="caret"></span>
+					</button>
+					  <ul  class="DD dropdown-menu">
+						<li><a id="emailMe" href="mailto:kennyjr.14767@gmail.com">Email</a></li>
+						<li class="divider"></li>
+						<li><a href="https://soundcloud.com/gotlean">SoundCloud</a></li>
+						<li><a href="https://www.facebook.com/franklin.dwain">Facebook</a></li>
+					  </ul>
+				</div>
+			</div>  
+		</main>
+		<footer>
+			<p  class="text-left">Web-Site by K.B.Code</p>
+		</footer>
 	</body>
-	
 </html>
